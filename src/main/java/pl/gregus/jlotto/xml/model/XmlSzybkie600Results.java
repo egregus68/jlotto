@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pl.gregus.jlotto.xml.model;
+
+import java.util.List;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+/**
+ *
+ * @author ggusciora
+ */
+@XmlRootElement(name = "szybkie600Results")
+@XmlAccessorType(XmlAccessType.FIELD)
+public class XmlSzybkie600Results {
+
+    @XmlElement(name = "szybkie600Result")
+    private List<Szybkie600Result> szybkie600Results;
+
+    public List<Szybkie600Result> getSzybkie600Results() {
+        return szybkie600Results;
+    }
+
+    public void setSzybkie600Results(List<Szybkie600Result> szybkie600Results) {
+        this.szybkie600Results = szybkie600Results;
+    }
+}
