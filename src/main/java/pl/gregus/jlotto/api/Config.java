@@ -15,4 +15,6 @@ public class Config {
     
     public static final String URL_LOTTO_PLUS = "https://www.lotto.pl/lotto/wyniki-i-wygrane/";
     
+    public static final String URL_LOTERIADA = "https://www.loteriada.pl/lista-zwyciezcow";
+    
 }

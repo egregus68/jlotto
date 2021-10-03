@@ -24,7 +24,7 @@ public class LottoTop6PerYearMain {
 
     private static final String XML_LOTTO_RESULTS = "lotto-results.xml";
 
-    private static final LocalDateTime DATE_COMPARE_FROM = LocalDateTime.parse("2021-01-01T00:00:00");        
+    private static final LocalDateTime DATE_COMPARE_FROM = LocalDateTime.parse("2015-01-01T00:00:00");        
 
     /**
      * @param args the command line arguments

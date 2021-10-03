@@ -5,9 +5,9 @@
  */
 package pl.gregus.jlotto.xml.model;
 
+import jakarta.xml.bind.annotation.adapters.XmlAdapter;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import javax.xml.bind.annotation.adapters.XmlAdapter;
 
 /**
  *

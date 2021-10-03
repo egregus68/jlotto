@@ -26,7 +26,7 @@ public class Szybkie600Top6PerMonthMain {
 
     private static final LocalDateTime DATE_COMPARE_FROM = LocalDateTime.parse("2021-01-01T00:00:00");
     
-    private static final LocalDateTime DATE_COMPARE_TO = LocalDateTime.parse("2021-08-01T00:00:00");
+    private static final LocalDateTime DATE_COMPARE_TO = LocalDateTime.parse("2021-10-01T00:00:00");
 
     /**
      * @param args the command line arguments

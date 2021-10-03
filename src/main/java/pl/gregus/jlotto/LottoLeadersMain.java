@@ -27,9 +27,9 @@ public class LottoLeadersMain {
 
     private static final String XML_LOTTO_RESULTS = "lotto-results.xml";
 
-    private static final LocalDateTime DATE_COMPARE = LocalDateTime.parse("2001-01-01T00:00:00");
+    private static final LocalDateTime DATE_COMPARE = LocalDateTime.parse("2020-01-01T00:00:00");
 
-    private static final int LENGTH_OF_COMBINATION = 4;
+    private static final int LENGTH_OF_COMBINATION = 5;
 
     private static final int LENGTH_OF_SET = 49;
 

@@ -18,11 +18,15 @@ public class LottoApi {
     private final ContentAnalyzer contentAnalyzer;
 
     public LottoApi(DrawType drawType, int resultNumber) {
-        this.contentAnalyzer = new ContentAnalyzer(drawType, resultNumber);
+        this.contentAnalyzer = new LottoContentAnalyzer(drawType, resultNumber);
     }
     
     public LottoApi(DrawType drawType, LocalDateTime date) {
-        this.contentAnalyzer = new ContentAnalyzer(drawType, date);
+        this.contentAnalyzer = new LottoContentAnalyzer(drawType, date);
+    }
+    
+    public LottoApi() {
+        this.contentAnalyzer = new LoteriadaContentAnalyzer(DrawType.LOTERIADA);
     }
 
     public List<String> getResults() {

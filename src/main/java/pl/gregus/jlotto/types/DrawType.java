@@ -12,7 +12,8 @@ package pl.gregus.jlotto.types;
 public enum DrawType {
     LOTTO("LOTTO"),
     PLUS("PLUS"),
-    SZYBKIE600("SZYBKIE600");
+    SZYBKIE600("SZYBKIE600"),
+    LOTERIADA("LOTERIADA");
 
     private final String value;
 

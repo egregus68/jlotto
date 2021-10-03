@@ -29,7 +29,7 @@ public class Szybkie600PobierzWynikiMain {
 
     private static final String XML_SZYBKIE600_RESULTS = "szybkie600-results.xml";
     
-    private static final LocalDateTime DATE_RESULTS = LocalDateTime.parse("2021-08-21T00:00:00");
+    private static final LocalDateTime DATE_RESULTS = LocalDateTime.parse("2021-10-03T00:00:00");
 
     /**
      * @param args the command line arguments

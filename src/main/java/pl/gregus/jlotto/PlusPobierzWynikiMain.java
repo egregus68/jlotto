@@ -29,7 +29,7 @@ public class PlusPobierzWynikiMain {
 
     private static final String XML_PLUS_RESULTS = "plus-results.xml";
     
-    private static final LocalDateTime DATE_RESULTS = LocalDateTime.parse("2021-08-21T00:00:00");
+    private static final LocalDateTime DATE_RESULTS = LocalDateTime.now();
 
     /**
      * @param args the command line arguments
